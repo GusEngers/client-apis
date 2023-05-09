@@ -1,5 +1,5 @@
 import Card from '@/components/Card/Card.component';
-import { PROJECTS } from '@/mocks/projects.mocks';
+import { PROJECTS_HOME } from '@/mocks/projects.mocks';
 import Head from 'next/head';
 // import styles from '@/styles/Home.module.css';
 
@@ -25,7 +25,7 @@ export default function Home() {
           </p>
         </div>
         <div>
-          {PROJECTS.map((project, index) => (
+          {PROJECTS_HOME.map((project, index) => (
             <Card
               name={project.name}
               description={project.description}
