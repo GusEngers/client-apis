@@ -55,6 +55,7 @@ export const WS: IProject = {
   description:
     'Proyecto con la finalidad de practicar Web Scraping haciendo uso de la página web de Wikipedia. Dado la finalidad que puede llegar a tener el Web Scraping se informa que este proyecto utiliza estas técnicas para extraer información de Wikipedia con fines exclusivamente educativos y sin ánimo de lucro.',
   techs: ['Javascript', 'Node.js', 'Express.js', 'Cheerio', 'Axios'],
+  link: 'https://wikipedia-scraping.onrender.com',
   links: [
     {
       name: 'Repositorio',
@@ -72,6 +73,7 @@ export const US: IProject = {
   description:
     'API para acortar Urls y almacenarlas en una Base de Datos. Esta versión cuenta con solamente dos funcionalidades públicas crear y redireccionar.',
   techs: ['Javascript', 'Node.js', 'Express.js', 'Mongoose', 'Axios'],
+  link: 'https://ge-us.onrender.com',
   links: [
     {
       name: 'Repositorio',
